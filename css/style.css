@@ -1,0 +1,172 @@
+body {
+    background-color: #f7f1e8;
+    color: #333333;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+header {
+    background-color: #cfe8c6;
+    color: black;
+    padding: 1rem;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d89b9b;
+}
+
+
+h1 {
+    color: #789c6a;
+    border-bottom: 2px solid #789c6a;
+    width: fit-content;
+    padding-bottom: 0.6rem;
+    font-size: 2rem;
+}
+
+
+main {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+
+/* Section boxes */
+
+.home-container,
+.about-container,
+.skills-container,
+.projects-container,
+.education-container,
+.contact-container {
+    background-color: #fffaf5;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(100, 100, 100, 0.12);
+    margin-bottom: 2rem;
+}
+
+
+/* About Me */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-container img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-container p {
+    flex: 1;
+}
+
+
+/* Skills */
+
+.skills-container dt {
+    font-weight: bold;
+    color: #789c6a;
+}
+
+.skills-container dd {
+    margin-bottom: 0.8rem;
+}
+
+
+/* Projects */
+
+.projects-container article {
+    background-color: #f6e1e1;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.projects-container h2 {
+    color: #8d6868;
+}
+
+
+/* Education */
+
+.education-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education-container th,
+.education-container td {
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.education-container th {
+    background-color: #d9ead3;
+}
+
+.education-container tr:nth-child(even) {
+    background-color: #f9eeee;
+}
+
+
+/* Contact */
+
+.contact-container img {
+    margin-top: 0.5rem;
+}
+
+.contact-container a {
+    color: #789c6a;
+    font-weight: bold;
+}
+
+.contact-container button {
+    background-color: #cfe8c6;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #b5d5aa;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #cfe8c6;
+    text-align: center;
+    padding: 1rem;
+}
